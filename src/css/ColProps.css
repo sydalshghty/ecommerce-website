@@ -1,0 +1,24 @@
+.col-Props{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.col-Props span{
+    width: 20px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: var(--background-Secondary2);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.col-Props p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: var(--background-Secondary2);
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}

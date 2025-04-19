@@ -1,0 +1,141 @@
+{
+    "FlashSales": [
+        {
+            "id": 1,
+            "img": "https://i.imgur.com/5m3uK7P.png",
+            "title": "HAVIT HV-G92 Gamepad",
+            "newPrice": 120,
+            "oldPrice": 160,
+            "numberStar": 88,
+            "Star": "-40%"
+        },
+        {
+            "id": 2,
+            "img": "https://i.imgur.com/Vl8ScGN.png",
+            "title": "AK-900 Wired Keyboard",
+            "newPrice": 960,
+            "oldPrice": 1160,
+            "numberStar": 75,
+            "Star": "-35%"
+        },
+        {
+            "id": 3,
+            "img": "https://i.imgur.com/U0wlmY2.png",
+            "title": "IPS LCD Gaming Monitor",
+            "newPrice": 370,
+            "oldPrice": 400,
+            "numberStar": 99,
+            "Star": "-30%"
+        },
+        {
+            "id": 4,
+            "img": "https://i.imgur.com/1OQbz66.png",
+            "title": "S-Series Comfort Chair",
+            "newPrice": 375,
+            "oldPrice": 400,
+            "numberStar": 99,
+            "Star": "-25%"
+        },
+        {
+            "id": 5,
+            "img": "https://i.imgur.com/kAzrUSa.png",
+            "title": "ASUS FHD Gaming Laptop",
+            "newPrice": 700,
+            "oldPrice": 750,
+            "numberStar": 95,
+            "Star": "-35%"
+        }
+    ],
+    "Products": [
+        {
+            "id": 1,
+            "img": "https://i.imgur.com/jzgl3sH.png",
+            "title": "The north coat",
+            "newPrice": 260,
+            "oldPrice": 360,
+            "numberStar": 65
+        },
+        {
+            "id": 2,
+            "img": "https://i.imgur.com/6j03r91.png",
+            "title": "Gucci duffle bag",
+            "newPrice": 960,
+            "oldPrice": 1160,
+            "numberStar": 65
+        },
+        {
+            "id": 3,
+            "img": "https://i.imgur.com/tCkWpN2.png",
+            "title": "RGB liquid CPU Cooler",
+            "newPrice": 160,
+            "oldPrice": 170,
+            "numberStar": 65
+        },
+        {
+            "id": 4,
+            "img": "https://i.imgur.com/IoDhEbC.png",
+            "title": "Small BookSelf",
+            "newPrice": 360,
+            "oldPrice": 380,
+            "numberStar": 65
+        }
+    ],
+    "OurProducts": [
+        {
+            "id": 1,
+            "img": "https://i.imgur.com/oue61hY.png",
+            "title": "Breed Dry Dog Food",
+            "newPrice": 100,
+            "numberStar": 35
+        },
+        {
+            "id": 2,
+            "img": "https://i.imgur.com/Wzqrrsl.png",
+            "title": "CANON EOS DSLR Camera",
+            "newPrice": 360,
+            "numberStar": 95
+        },
+        {
+            "id": 3,
+            "img": "https://i.imgur.com/H7VxBDk.png",
+            "title": "ASUS FHD Gaming Laptop",
+            "newPrice": 700,
+            "numberStar": 325
+        },
+        {
+            "id": 4,
+            "img": "https://i.imgur.com/w5ktgqX.png",
+            "title": "Curology Product Set",
+            "newPrice": 500,
+            "numberStar": 145
+        },
+        {
+            "id": 5,
+            "img": "https://i.imgur.com/cT5uG1c.png",
+            "title": "Kids Electric Car",
+            "newPrice": 960,
+            "numberStar": 65
+        },
+        {
+            "id": 6,
+            "img": "https://i.imgur.com/wLouFRK.png",
+            "title": "Jr. Zoom Soccer Cleats",
+            "newPrice": 1160,
+            "numberStar": 35
+        },
+        {
+            "id": 7,
+            "img": "https://i.imgur.com/eg70W2x.png",
+            "title": "GP11 Shooter USB Gamepad",
+            "newPrice": 660,
+            "numberStar": 55
+        },
+        {
+            "id": 8,
+            "img": "https://i.imgur.com/UlGmKrz.png",
+            "title": "Quilted Satin Jacket",
+            "newPrice": 660,
+            "numberStar": 55
+        }
+    ]
+}

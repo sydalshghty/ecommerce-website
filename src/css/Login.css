@@ -1,0 +1,162 @@
+.Login-Departament{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    display: flex;
+    overflow: hidden;
+}
+.Login-Departament .col-image{
+    position: relative;
+    max-width: 50%;
+}
+.Login-Departament .col-image img{
+    width: 100%;
+}
+.Login-Departament .Login-Content{
+    min-width: 50%;
+    margin-top: 80px;
+}
+.Login-Departament .Login-Content .container .col-content{
+    margin-bottom: 40px;
+}
+.Login-Departament .Login-Content .container .col-content h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--text-two);
+    letter-spacing: 0.5px;
+}
+.Login-Departament .Login-Content .container .col-content p{
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    color: var(--text-two);
+}
+.Login-Departament .Login-Content .container form{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin-bottom: 20px;
+}
+.Login-Departament .Login-Content .container form input{
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #eee;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.Login-Departament .Login-Content .container form input::placeholder{
+    padding-left: 5px;
+}
+.Login-Departament .Login-Content .container .col-Button{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Login-Departament .Login-Content .container .col-Button button{
+    position: relative;
+    width: 143px;
+    height: 56px;
+    background-color: var(--background-Secondary2);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: var(--Text);
+    letter-spacing: 0.5px;
+    z-index: 1;
+    transition: color 0.7s ease;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-transition: color 0.7s ease;
+    -moz-transition: color 0.7s ease;
+    -ms-transition: color 0.7s ease;
+    -o-transition: color 0.7s ease;
+}
+.Login-Departament .Login-Content .container .col-Button button::before,
+.Login-Departament .Login-Content .container .col-Button button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: -1;
+    transition: width 0.7s ease;
+    -webkit-transition: width 0.7s ease;
+    -moz-transition: width 0.7s ease;
+    -ms-transition: width 0.7s ease;
+    -o-transition: width 0.7s ease;
+}
+.Login-Departament .Login-Content .container .col-Button button::before{
+    left: 50%;
+}
+.Login-Departament .Login-Content .container .col-Button button::after{
+    right: 50%;
+}
+.Login-Departament .Login-Content .container .col-Button button:hover::before,
+.Login-Departament .Login-Content .container .col-Button button:hover::after{
+    width: 50%;
+}
+.Login-Departament .Login-Content .container .col-Button button:hover{
+    border: 1px solid var(--background-Secondary2);
+    color: var(--background-Secondary2);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.Login-Departament .Login-Content .container .col-Button a{
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    color: var(--background-Secondary2);
+}
+@media (max-width: 1100px) {
+    .Login-Departament .Login-Content {
+        margin-top: 30px;
+    }
+    .Login-Departament .Login-Content .container .col-content h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 850px) {
+    .Login-Departament {
+        flex-direction: column;
+    }
+
+    .Login-Departament .col-image {
+        max-width: 100%;
+    }
+
+    .Login-Departament .col-image img {
+        height: 500px;
+    }
+}
+
+@media (max-width: 520px) {
+    .Login-Departament .col-image img {
+        height: fit-content;
+    }
+}
+@media (max-width: 420px){
+    .Login-Departament .Login-Content .container form{
+        width: 320px;
+    }
+    .Login-Departament .Login-Content .container .col-Button{
+        width: 320px;
+    }
+}
+@media (max-width: 520px){
+    .Login-Departament .Login-Content .container .col-Button button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+     }
+}

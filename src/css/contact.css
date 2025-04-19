@@ -1,0 +1,302 @@
+.contact-Departament{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+.contact-Departament .container{
+    width: 100%;
+}
+.contact-Departament .container .heading-contact{
+    width: 100%;
+    display: flex;
+}
+.contact-Departament .container .heading-contact p{
+    color: var(--text2);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.contact-Departament .container .heading-contact p:nth-child(1){
+    margin-right: 5px;
+}
+.contact-Departament .container .heading-contact p:nth-child(2){
+    color: var(--text-two);
+}
+.contact-Departament .container .contact-Content{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.contact-Departament .container .contact-Content .call-write-Cols{
+    padding: 30px;
+    width: 340px;
+    height: 457px;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.contact-Departament .container .contact-Content .call-write-Cols .call-Col{
+    margin-top: 20px;
+}
+.contact-Departament .container .contact-Content .call-write-Cols .call-Col .heading-call,
+.contact-Departament .container .contact-Content .call-write-Cols .write-Col .heading-Write{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact-Departament .container .contact-Content .call-write-Cols .call-Col .heading-call img,
+.contact-Departament .container .contact-Content .call-write-Cols .write-Col .heading-Write img{
+    cursor: pointer;
+    margin-right: 20px;
+}
+.contact-Departament .container .contact-Content .call-write-Cols .call-Col .heading-call h3,
+.contact-Departament .container .contact-Content .call-write-Cols .write-Col .heading-Write h3{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--text-two);
+}
+.contact-Departament .container .contact-Content .call-write-Cols .call-Col .content-call{
+    width: 100%;
+    border-bottom: 2px solid var(--text2);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.contact-Departament .container .contact-Content .call-write-Cols .call-Col .content-call p,
+.contact-Departament .container .contact-Content .call-write-Cols .write-Col .content-write p{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+.contact-Departament .container .contact-Content .call-write-Cols .write-Col .content-write p:nth-child(2),
+.contact-Departament .container .contact-Content .call-write-Cols .write-Col .content-write p:nth-child(3){
+    cursor: pointer;
+}
+.contact-Departament .container .contact-Content form{
+    width: 800px;
+    height: 457px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.contact-Departament .container .contact-Content form .all-Email-Phone-Name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.contact-Departament .container .contact-Content form input,
+.contact-Departament .container .contact-Content form textarea{
+    width: 235px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: var(--Secondary);
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--text-two);
+    caret-color: var(--text-two);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.contact-Departament .container .contact-Content form input::placeholder,
+.contact-Departament .container .contact-Content form textarea::placeholder{
+    padding-left: 5px;
+}
+.contact-Departament .container .contact-Content form textarea{
+    width: 737px;
+    min-height: 207px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.contact-Departament .container .contact-Content form button{
+    position: relative;
+    float: right;
+    width: 215px;
+    height: 56px;
+    border: none;
+    background-color: var(--background-Secondary2);
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    color: var(--Text);
+    z-index: 1;
+    transition: color 0.7s ease;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: color 0.7s ease;
+    -moz-transition: color 0.7s ease;
+    -ms-transition: color 0.7s ease;
+    -o-transition: color 0.7s ease;
+}
+.contact-Departament .container .contact-Content form button::before,
+.contact-Departament .container .contact-Content form button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+    transition: width 0.7s ease;
+    -webkit-transition: width 0.7s ease;
+    -moz-transition: width 0.7s ease;
+    -ms-transition: width 0.7s ease;
+    -o-transition: width 0.7s ease;
+}
+.contact-Departament .container .contact-Content form button::before{
+    left: 50%;
+}
+.contact-Departament .container .contact-Content form button::after{
+    right: 50%;
+}
+.contact-Departament .container .contact-Content form button:hover::before,
+.contact-Departament .container .contact-Content form button:hover::after{
+    width: 50%;
+}
+.contact-Departament .container .contact-Content form button:hover{
+    border: 1px solid var(--background-Secondary2);
+    color: var(--background-Secondary2);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+@media (max-width: 1300px){
+    .contact-Departament .container .contact-Content .call-write-Cols{
+        min-width: 340px;
+    }
+    .contact-Departament .container .contact-Content form{
+        max-width: 700px;
+    }
+    .contact-Departament .container .contact-Content form textarea{
+        width: 640px;
+    }
+        .contact-Departament .container .contact-Content form input{
+        width: 200px;
+    }
+}
+@media (max-width: 1200px){
+    .contact-Departament .container .contact-Content .call-write-Cols {
+     min-width: 280px; 
+    }
+    .contact-Departament .container .contact-Content form{
+        max-width: 600px;
+    }
+    .contact-Departament .container .contact-Content form textarea {
+        width: 540px;
+    }
+
+    .contact-Departament .container .contact-Content form input {
+        width: 170px;
+    }
+}
+@media (max-width: 1050px){
+    .contact-Departament .container .contact-Content{
+        flex-direction: column-reverse;
+    }
+    .contact-Departament .container .contact-Content form input{
+        width: calc(100% / 3);
+        margin-right: 20px;
+    }
+    .contact-Departament .container .contact-Content form input:last-child{
+        margin-right: 0px;
+    }
+    .contact-Departament .container .contact-Content form{
+        min-width: 100%;
+        margin-top: -30px;
+        margin-bottom: 40px;
+    }
+    .contact-Departament .container .contact-Content form textarea{
+        width: 100%;
+    }
+}
+@media (max-width: 650px){
+    .contact-Departament .container .contact-Content form{
+        width: 100%;
+        height: fit-content;
+    }
+    .contact-Departament .container .contact-Content form .all-Email-Phone-Name{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .contact-Departament .container .contact-Content form input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact-Departament .container .contact-Content form button{
+        width: 200px;
+    }
+    .contact-Departament .container .contact-Content .call-write-Cols{
+        margin-right: 0px;
+    }
+}
+@media (max-width: 520px){
+    .contact-Departament .container .contact-Content .call-write-Cols{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+        .contact-Departament .container .contact-Content form button{
+            width: 160px;
+            height: 50px;
+            font-size: 14px;
+        }
+}
+@media (max-width: 550px){
+    .contact-Departament .container .contact-Content form{
+        height: 420px;
+    }
+    .contact-Departament .container .contact-Content form input{
+        height: 40px;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .contact-Departament .container .contact-Content form textarea{
+        min-height: 140px;
+        margin-top: -10px;
+        font-size: 13px;
+    }
+    .contact-Departament .container .contact-Content form button{
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .contact-Departament .container .contact-Content .call-write-Cols{
+        height: 380px;
+    }
+    .contact-Departament .container .contact-Content .call-write-Cols .call-Col{
+        margin-top: -10px;
+    }
+    .contact-Departament .container .contact-Content .call-write-Cols .call-Col .heading-call img,
+    .contact-Departament .container .contact-Content .call-write-Cols .write-Col .heading-Write img{
+        width: 30px;
+    }
+    .contact-Departament .container .contact-Content .call-write-Cols .call-Col .heading-call h3,
+    .contact-Departament .container .contact-Content .call-write-Cols .write-Col .heading-Write h3{
+        font-size: 15px;
+    }
+    .contact-Departament .container .contact-Content .call-write-Cols .call-Col .content-call p,
+    .contact-Departament .container .contact-Content .call-write-Cols .write-Col .content-write p{
+        font-size: 14px;
+    }
+}

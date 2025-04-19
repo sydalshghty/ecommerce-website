@@ -1,0 +1,68 @@
+{
+    "OurProducts": [
+        {
+            "id": 1,
+            "img": "https://i.imgur.com/oue61hY.png",
+            "title": "Breed Dry Dog Food",
+            "newprice": 100,
+            "numberStar": 35,
+            "quantity": 1
+        },
+        {
+            "id": 2,
+            "img": "https://i.imgur.com/Wzqrrsl.png",
+            "title": "CANON EOS DSLR Camera",
+            "newprice": 360,
+            "numberStar": 95,
+            "quantity": 1
+        },
+        {
+            "id": 3,
+            "img": "https://i.imgur.com/H7VxBDk.png",
+            "title": "ASUS FHD Gaming Laptop",
+            "newprice": 700,
+            "numberStar": 325,
+            "quantity": 1
+        },
+        {
+            "id": 4,
+            "img": "https://i.imgur.com/w5ktgqX.png",
+            "title": "Curology Product Set",
+            "newprice": 500,
+            "numberStar": 145,
+            "quantity": 1
+        },
+        {
+            "id": 5,
+            "img": "https://i.imgur.com/cT5uG1c.png",
+            "title": "Kids Electric Car",
+            "newprice": 960,
+            "numberStar": 65,
+            "quantity": 1
+        },
+        {
+            "id": 6,
+            "img": "https://i.imgur.com/wLouFRK.png",
+            "title": "Jr. Zoom Soccer Cleats",
+            "newprice": 1160,
+            "numberStar": 35,
+            "quantity": 1
+        },
+        {
+            "id": 7,
+            "img": "https://i.imgur.com/eg70W2x.png",
+            "title": "GP11 Shooter USB Gamepad",
+            "newprice": 660,
+            "numberStar": 55,
+            "quantity": 1
+        },
+        {
+            "id": 8,
+            "img": "https://i.imgur.com/UlGmKrz.png",
+            "title": "Quilted Satin Jacket",
+            "newprice": 660,
+            "numberStar": 55,
+            "quantity": 1
+        }
+    ]
+}

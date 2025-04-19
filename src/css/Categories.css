@@ -1,0 +1,162 @@
+.Categories-departament{
+    width: 100%;
+    min-height: 100%;
+    margin-top: 60px;
+}
+.Categories-departament .container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.Categories-departament .container .main-img{
+    width: 100%;
+    height: 100%;
+}
+.Categories-departament .container .content-categories{
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Categories-departament .container .content-categories h4{
+    color: var(--button1);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.Categories-departament .container .content-categories h2{
+    font-size: 45px;
+    max-width: 400px;
+    letter-spacing: 0.5px;
+    color: var(--Text);
+    margin-bottom: 30px;
+}
+.Categories-departament .container .content-categories .col-Days{
+    display: flex;
+    margin-bottom: 30px;
+}
+.Categories-departament .container .content-categories .col-Days .col{
+    width: 62px;
+    height: 62px;
+    padding: 15px;
+    background-color: var(--color-white);
+    color: var(--text-two);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.Categories-departament .container .content-categories .col-Days .col p:nth-child(1){
+    font-size: 16px;
+    font-weight: bold;
+}
+.Categories-departament .container .content-categories .col-Days .col p:nth-child(2){
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+.Categories-departament .container .content-categories button{
+    width: 171px;
+    height: 56px;
+    background-color: var(--button1);
+    border: none;
+    cursor: pointer;
+    color: var(--Text);
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+@media (max-width: 1300px){
+    .Categories-departament .container .content-categories h4{
+        margin-bottom: 15px;
+    }
+    .Categories-departament .container .content-categories h2{
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+    .Categories-departament .container .content-categories .col-Days .col p:nth-child(1){
+        font-size: 14px;
+    }
+    .Categories-departament .container .content-categories .col-Days .col p:nth-child(2){
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+    .Categories-departament .container .content-categories .col-Days .col{
+        width: 55px;
+        height: 55px;
+    }
+    .Categories-departament .container .content-categories button{
+        width: 150px;
+        height: 50px;
+    }
+}
+@media (max-width: 1200px){
+    .Categories-departament{
+        height: 400px;
+    }
+}
+@media (max-width: 768px){
+    .Categories-departament{
+        height: 350px;
+    }
+    .Categories-departament .container .content-categories{
+        padding: 20px;
+    }
+    .Categories-departament .container .content-categories h2{
+        font-size: 25px;
+        max-width: 250px;
+    }
+    .Categories-departament .container .content-categories .col-Days .col{
+        width: 55px;
+        height: 55px;
+    }
+    .Categories-departament .container .content-categories .col-Days .col p:nth-child(2){
+        font-size: 11px;
+    }
+    .Categories-departament .container .content-categories button{
+        width: 150px;
+        height: 45px;
+    }
+}
+@media (max-width: 600px){
+    .Categories-departament{
+        height: 320px;
+    }
+    .Categories-departament .container .content-categories{
+        padding: 20px;
+    }
+    .Categories-departament .container .content-categories h2{
+        font-size: 20px;
+        max-width: 250px;
+    }
+    .Categories-departament .container .content-categories .col-Days .col{
+        width: 40px;
+        height: 40px;
+    }
+    .Categories-departament .container .content-categories .col-Days .col p:nth-child(1){
+        font-size: 12px;
+    }
+    .Categories-departament .container .content-categories .col-Days .col p:nth-child(2){
+        font-size: 10px;
+        display: none;
+    }
+    .Categories-departament .container .content-categories button{
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+    }
+}

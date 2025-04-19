@@ -1,0 +1,181 @@
+.flashSales-Departament{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.flashSales-Departament .container{
+    width: 100%;
+}
+.flashSales-Departament .container .flashSales-col{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flashSales-Departament .container .flashSales-col h3{
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: var(--text-two);
+    letter-spacing: 0.5px;
+}
+.flashSales-Departament .container .flashSales-col .left-right-col{
+    cursor: pointer;
+}
+.flashSales-Departament .container .flashSales-col .left-right-col .img-left{
+    margin-right: 10px;
+}
+.flashSales-Departament .container .flashSales-Products .col-product .col-img-product{
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--Secondary-Color);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.flashSales-Departament .container{
+    overflow: hidden;
+}
+.flashSales-Departament .container .flashSales-Products .col-product .col-img-product .main-img{
+    width: 172px;
+    height: calc(100% - 80px);
+    margin-top: 42px;
+}
+.flashSales-Departament .container .flashSales-Products .col-product .col-img-product .product-star{
+    position: absolute;
+    left: 0;
+    margin: 12px;
+    width: 55px;
+    height: 26px;
+    background-color: var(--background-Secondary2);
+    text-align: center;
+    color: var(--Text);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.flashSales-Departament .container .flashSales-Products .col-product .col-img-product .col-Heart-Eye{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    margin: 12px;
+    cursor: pointer;
+}
+.flashSales-Departament .container .flashSales-Products .col-product .col-img-product .col-Heart-Eye div{
+    width: 34px;
+    height: 34px;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.flashSales-Departament .container .flashSales-Products .col-product .col-img-product .col-Heart-Eye .img-Heart{
+    margin-bottom: 10px;
+}
+.flashSales-Departament .container .flashSales-Products .col-product .col-img-product  .Add-To-Cart{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--Button);
+    color: var(--color-white);
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: height 0.5s ease;
+    -webkit-transition: height 0.5s ease;
+    -moz-transition: height 0.5s ease;
+    -ms-transition: height 0.5s ease;
+    -o-transition: height 0.5s ease;
+}
+.flashSales-Departament .container .flashSales-Products .col-product .col-img-product:hover .Add-To-Cart{
+    height: 40px;
+}
+.flashSales-Departament .container .content-product-text{
+    margin-top: 10px;
+}
+.flashSales-Departament .container .content-product-text h4{
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.flashSales-Departament .container .content-product-text .col-price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.flashSales-Departament .container .content-product-text .col-price p,
+.flashSales-Departament .container .content-product-text .col-price del{
+    margin-right: 10px;
+    color: var(--background-Secondary2);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+.flashSales-Departament .container .content-product-text .col-price del{
+    color: var(--text2);
+}
+.flashSales-Departament .container .content-product-text .col-star{
+    display: flex;
+    align-items: center;
+}
+.flashSales-Departament .container .content-product-text .col-star .allIcon-Star{
+    margin-right: 10px;
+    display: flex;
+        align-items: center;
+}
+.flashSales-Departament .container .content-product-text .col-star .allIcon-Star .icon{
+    color: var(--background-star);
+    width: 17px;
+    height: 17px;
+}
+.flashSales-Departament .container .content-product-text .col-star .allIcon-Star .icon:last-child{
+    color: var(--text2);
+}
+.flashSales-Departament .container .content-product-text .col-star p{
+    font-size: 15px;
+    color: var(--text2);
+    letter-spacing: 0.5px;
+}
+@media (max-width: 768px) {
+    .flashSales-Departament .container .flashSales-col h3 {
+        font-size: 22px;
+    }
+
+    .flashSales-Departament .container .flashSales-col .left-right-col img {
+        width: 40px;
+    }
+}
+@media (max-width: 600px){
+    .flashSales-Departament .container .flashSales-col h3{
+        font-size: 20px;
+    }
+}
+@media (max-width: 420px){
+    .flashSales-Departament .container .flashSales-col h3{
+        font-size: 18px;
+    }
+}

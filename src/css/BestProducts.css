@@ -1,0 +1,270 @@
+.best-Products{
+    width: 100%;
+}
+.best-Products .container{
+    width: 100%;
+    margin-top: 60px;
+}
+.best-Products .container .heading-Best-Products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-Products .container .heading-Best-Products h3{
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: var(--text-two);
+    letter-spacing: 0.5px;
+}
+.best-Products .container .heading-Best-Products button{
+    position: relative;
+    width: 159px;
+    height: 56px;
+    background-color: var(--background-Secondary2);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    color: var(--Text);
+    z-index: 1;
+    transition: color 0.5s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+}
+.best-Products .container .heading-Best-Products button::before,
+.best-Products .container .heading-Best-Products button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: -1;
+    transition: width 0.5s ease;
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -ms-transition: width 0.5s ease;
+    -o-transition: width 0.5s ease;
+}
+.best-Products .container .heading-Best-Products button:hover::before,
+.best-Products .container .heading-Best-Products button:hover::after{
+    opacity: 1;
+    width: 50%;
+}
+.best-Products .container .heading-Best-Products button:hover{
+    color: var(--background-Secondary2);
+    border: 1px solid var(--background-Secondary2);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.best-Products .container .heading-Best-Products button::before{
+    left: 50%;
+}
+.best-Products .container .heading-Best-Products button::after{
+    right: 50%;
+}
+@media (max-width: 768px){
+    .best-Products .container .heading-Best-Products h3{
+        font-size: 22px;
+    }
+}
+.best-Products .container .Products-Departament{
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.best-Products .container .Products-Departament .product-content .col-image{
+    position: relative;
+    width: 270px;
+    height: 250px;
+    background-color: var(--Secondary-Color);
+    padding: 15px;
+}
+.best-Products .container .Products-Departament .product-content .col-image .add-To-Cart{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--Button);
+    color: var(--color-white);
+    height: 0px;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.5s ease;
+    -webkit-transition: height 0.5s ease;
+    -moz-transition: height 0.5s ease;
+    -ms-transition: height 0.5s ease;
+    -o-transition: height 0.5s ease;
+}
+.best-Products .container .Products-Departament .product-content .col-image:hover .add-To-Cart{
+    height: 40px;
+}
+.best-Products .container .Products-Departament .product-content .col-image .content-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.best-Products .container .Products-Departament .product-content .col-image img{
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+@media (max-width: 1050px) {
+    .best-Products .container .Products-Departament .product-content .col-image {
+        min-width: 350px;
+    }
+    .best-Products .container .Products-Departament .product-content .col-image img{
+        margin-left: 60px;
+    }
+}
+@media (max-width: 768px){
+    .best-Products .container .Products-Departament .product-content .col-image {
+            min-width: 270px;
+        }
+    
+        .best-Products .container .Products-Departament .product-content .col-image img {
+            margin-left: 20px;
+        }
+}
+@media (max-width: 600px){
+    .best-Products .container .Products-Departament .product-content .col-image {
+            min-width: 100%;
+            height: 250px;
+        }
+        .best-Products .container .Products-Departament .product-content .col-image img {
+            margin-left: auto;
+            margin-right: auto;
+            left: 25%;
+        }
+}
+@media (max-width: 520px){
+    .best-Products .container .Products-Departament .product-content .col-image img{
+        left: 15%;
+    }
+}
+.best-Products .container .Products-Departament .product-content .col-image .Heart-Eye-Col{
+    position: absolute;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.best-Products .container .Products-Departament .product-content .col-image .Heart-Eye-Col div{
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.best-Products .container .Products-Departament .product-content .col-image .Heart-Eye-Col div:nth-child(1){
+    margin-bottom: 10px;
+}
+.best-Products .container .Products-Departament .product-content .text-Content-Product{
+    margin-top: 10px;
+}
+.best-Products .container .Products-Departament .product-content .text-Content-Product h4{
+    font-size: 17px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+.best-Products .container .Products-Departament .product-content .text-Content-Product .col-price{
+    margin-top: 5px;
+}
+.best-Products .container .Products-Departament .product-content .text-Content-Product .col-price span,
+.best-Products .container .Products-Departament .product-content .text-Content-Product .col-price del{
+    font-family: sans-serif;
+    color: var(--background-Secondary2);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-right: 10px;
+}
+.best-Products .container .Products-Departament .product-content .text-Content-Product .col-price del{
+    color: var(--text2);
+}
+.best-Products .container .Products-Departament .product-content .text-Content-Product .col-Stars{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.best-Products .container .Products-Departament .product-content .text-Content-Product .col-Stars .all-stars .icon{
+    width: 20px;
+    height: 20px;
+    color: #FFAD33;
+    margin-right: 3px;
+}
+.best-Products .container .Products-Departament .product-content .text-Content-Product .col-Stars .all-stars .icon:last-child{
+    color: var(--text2);
+}
+.best-Products .container .Products-Departament .product-content .text-Content-Product .col-Stars span{
+    color: var(--text2);
+    margin-top: -4px;
+}
+@media (max-width: 620px) {
+    .best-Products .container .heading-Best-Products h3 {
+        font-size: 22px;
+    }
+
+    .best-Products .container .heading-Best-Products button {
+        width: 130px;
+        height: 50px;
+    }
+}
+@media (max-width: 520px){
+    .best-Products .container .heading-Best-Products h3 {
+        font-size: 18px;
+    }
+    .best-Products .container .heading-Best-Products button{
+        width: 110px;
+        height: 40px;
+    }
+}
+@media (max-width: 600px){
+    .best-Products .container .heading-Best-Products h3{
+        font-size: 20px;
+    }
+    .best-Products .container .heading-Best-Products button{
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+}
+@media (max-width: 420px){
+    .best-Products .container .heading-Best-Products h3{
+        font-size: 18px;
+    }
+    .best-Products .container .heading-Best-Products button{
+        width: 100px;
+        height: 35px;
+    } 
+}

@@ -1,0 +1,54 @@
+{
+    "FlashSales": [
+        {
+            "id": 9,
+            "img": "https://i.imgur.com/5m3uK7P.png",
+            "title": "HAVIT HV-G92 Gamepad",
+            "newprice": 120,
+            "oldPrice": 160,
+            "numberStar": 88,
+            "Star": "-40%",
+            "quantity": 1
+        },
+        {
+            "id": 10,
+            "img": "https://i.imgur.com/Vl8ScGN.png",
+            "title": "AK-900 Wired Keyboard",
+            "newprice": 960,
+            "oldPrice": 1160,
+            "numberStar": 75,
+            "Star": "-35%",
+            "quantity": 1
+        },
+        {
+            "id": 11,
+            "img": "https://i.imgur.com/U0wlmY2.png",
+            "title": "IPS LCD Gaming Monitor",
+            "newprice": 370,
+            "oldPrice": 400,
+            "numberStar": 99,
+            "Star": "-30%",
+            "quantity": 1
+        },
+        {
+            "id": 12,
+            "img": "https://i.imgur.com/1OQbz66.png",
+            "title": "S-Series Comfort Chair",
+            "newprice": 375,
+            "oldPrice": 400,
+            "numberStar": 99,
+            "Star": "-25%",
+            "quantity": 1
+        },
+        {
+            "id": 13,
+            "img": "https://i.imgur.com/kAzrUSa.png",
+            "title": "ASUS FHD Gaming Laptop",
+            "newprice": 700,
+            "oldPrice": 750,
+            "numberStar": 95,
+            "Star": "-35%",
+            "quantity": 1
+        }
+    ]
+}

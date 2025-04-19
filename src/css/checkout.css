@@ -1,0 +1,427 @@
+.Checkout-Departament{
+    width: 100%;
+    margin-top: 60px;
+}
+.Checkout-Departament .container{
+    width: 100%;
+}
+.Checkout-Departament .container .heading-checkout a{
+    position: relative;
+    text-decoration: none;
+    color: var(--text2);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.Checkout-Departament .container .heading-checkout a::before,
+.Checkout-Departament .container .heading-checkout a::after{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    width: 0%;
+    height: 1px;
+    background-color: var(--text-two);
+    transition: width 0.5s ease;
+}
+.Checkout-Departament .container .heading-checkout a::before{
+    left: 50%;
+}
+.Checkout-Departament .container .heading-checkout a::after{
+    right: 50%;
+}
+.Checkout-Departament .container .heading-checkout a:hover::before,
+.Checkout-Departament .container .heading-checkout a:hover::after{
+    width: 50%;
+}
+.Checkout-Departament .container .heading-checkout a:last-child{
+    color: var(--text-two);
+}
+.Checkout-Departament .container .heading-checkout span{
+    margin: 0 10px;
+    color: var(--text2);
+}
+@media (max-width: 520px){
+    .Checkout-Departament .container .heading-checkout a{
+        font-size: 14px;
+    }
+    .Checkout-Departament .container .heading-checkout span{
+        margin: 0 5px;
+    }
+}
+.Checkout-Departament .container h1{
+    margin: 40px 0;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: var(--text-two);
+}
+.Checkout-Departament .container .Checkout-Content{
+    width: 100%;
+    display: flex;
+    margin-bottom: 200px;
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs{
+    width: 65%;
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-input{
+    margin-bottom: 15px;
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-input div{
+    margin-bottom: 10px;
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-input div label{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text2);
+    letter-spacing: 0.5px;
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-input div .icon{
+    width: 10px;
+    margin-left: 5px;
+    color: var(--background-Secondary2);
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-input input{
+    width: 470px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: var(--Secondary);
+    padding: 20px;
+    border-radius: 4px;
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-text{
+    display: flex;
+    align-items: center;
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-text .checkbox{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: 1px solid var(--background-Secondary2);
+    text-align: center;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-text .checkbox.background{
+    background-color: var(--background-Secondary2);
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-text .checkbox .icon{
+    color: var(--background-Secondary2);
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-text .checkbox .icon.color{
+    color: #FFFFFF;
+}
+.Checkout-Departament .container .Checkout-Content .all-Inputs .col-text p{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--text-two);
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout{
+    min-width: 30%;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .content-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .content-product div{
+    display: flex;
+    align-items: center;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .content-product div img{
+    margin-right: 20px;
+    width: 54px;
+    height: 54px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .content-product div h3{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--Button);
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .content-product p{
+    font-size: 17px;
+    color: var(--Button);
+    letter-spacing: 0.5px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total{
+    margin-top: 20px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Subtotal,
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Shipping,
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--text2);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Subtotal h3,
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Subtotal p,
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Shipping h3,
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Shipping p,
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Total h3,
+.Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Total p{
+    font-size: 17px;
+    color: var(--Button);
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-bank,
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-delivery{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-bank .col-check,
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-delivery .col-check{
+    min-width: 24px;
+    min-height: 24px;
+    border-radius: 50%;
+    color: var(--Button);
+    border: 1px solid var(--Button);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-bank .col-check li,
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-delivery .col-check li{
+    width: 14px;
+    height: 14px;
+    background-color: var(--Button);
+    list-style-type: none;
+    border-radius: 50%;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-bank p,
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-delivery{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--Button);
+    letter-spacing: 0.5px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-bank .col-check li{
+    opacity: 0;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-bank .col-check li.appear{
+    opacity: 1;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-delivery .col-check li.none{
+    opacity: 0;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .all-Images img{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(1){
+    width: 300px;
+    height: 56px;
+    border: 1px solid var(--text2);
+    background-color: transparent;
+    border-radius: 4px;
+    text-align: start;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text2);
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout  button:nth-child(2){
+    width: 211px;
+    height: 56px;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: var(--background-Secondary2);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Checkout-Departament .container .Checkout-Content button{
+    width: 190px;
+    height: 56px;
+    border: none;
+    background-color: var(--background-Secondary2);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+@media (max-width: 1300px){
+    .Checkout-Departament .container .Checkout-Content{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Checkout-Departament .container .Checkout-Content .all-Inputs{
+        width: 45%;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout{
+        max-width: 40%;
+    }
+}
+@media (max-width: 1100px){
+    .Checkout-Departament .container .Checkout-Content .all-Inputs{
+        max-width: 40%;
+     }
+    .Checkout-Departament .container .Checkout-Content .content-checkout{
+        max-width: 35%;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons{
+        flex-direction: column; 
+        width: 100%;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(1),
+    .Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button{
+        width: 100%;
+        text-align: center;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .Checkout-Departament .container .Checkout-Content button{
+        width: 100%;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-bank p,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-delivery{
+    font-size: 15px;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .all-Images img{
+        width: 40px;
+    }
+    .Checkout-Departament .container .Checkout-Content .all-Inputs .col-text p{
+        width: 100%;
+    }
+}
+@media (max-width: 800px){
+    .Checkout-Departament .container .Checkout-Content{
+        display: flex;
+        flex-direction: column;
+    } 
+   .Checkout-Departament .container .Checkout-Content .all-Inputs,
+   .Checkout-Departament .container .Checkout-Content .all-Inputs .col-input,
+   .Checkout-Departament .container .Checkout-Content .all-Inputs .col-input input{
+        min-width: 100%;
+     }
+     .Checkout-Departament .container .Checkout-Content .all-Inputs{
+        margin-bottom: 60px;
+     }
+    .Checkout-Departament .container .Checkout-Content .content-checkout{
+        max-width: 100%;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(1),
+    .Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button{
+        width: 50%;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .Checkout-Departament .container .Checkout-Content button{
+        width: 50%;
+    }
+}
+@media (max-width: 700px){
+    .Checkout-Departament .container .Checkout-Content{
+        overflow: hidden;
+    } 
+}
+@media (max-width: 520px){
+    .Checkout-Departament .container .Checkout-Content .all-Inputs .col-text p,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Subtotal h3,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Subtotal p,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Shipping h3,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Shipping p,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Total h3,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .all-Col-Total .col-Total p,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .content-product div h3,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .content-product p{
+        font-size: 15px;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-bank .col-check,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-delivery .col-check{
+        min-width: 15px;
+        min-height: 15px;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-bank .col-check li,
+    .Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .bank-col .col-delivery .col-check li{
+        min-width: 5px;
+        min-height: 5px;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .Payment-Col .all-Images img{
+        width: 30px;
+    }
+    .Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(1),
+    .Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button,
+    .Checkout-Departament .container .Checkout-Content button{
+        height: 50px;
+        font-size: 14px;
+    }
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(1){
+    transition: background-color 0.7s ease, color 0.7s ease;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(1):hover{
+    background-color: var(--background-Secondary2);
+    color: #FFFFFF;
+    border-color: transparent;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(2),
+.Checkout-Departament .container .Checkout-Content .Place-Order{
+    position: relative;
+    z-index: 1;
+    transition: color 0.7s ease, border 0.7s ease;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(2)::before,
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(2)::after,
+.Checkout-Departament .container .Checkout-Content .Place-Order::before,
+.Checkout-Departament .container .Checkout-Content .Place-Order::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #FFFFFF;
+    z-index: -1;
+    transition: width 0.7s ease;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(2)::before,
+.Checkout-Departament .container .Checkout-Content .Place-Order::before{
+    left: 50%;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(2)::after,
+.Checkout-Departament .container .Checkout-Content .Place-Order::after{
+    right: 50%;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(2):hover,
+.Checkout-Departament .container .Checkout-Content .Place-Order:hover{
+    color: var(--background-Secondary2);
+    border: 1px solid var(--background-Secondary2);
+    border-radius: 0px;
+}
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(2):hover::before,
+.Checkout-Departament .container .Checkout-Content .content-checkout .col-Buttons button:nth-child(2):hover::after,
+.Checkout-Departament .container .Checkout-Content .Place-Order:hover::before,
+.Checkout-Departament .container .Checkout-Content .Place-Order:hover::after{
+    width: 50%;
+}

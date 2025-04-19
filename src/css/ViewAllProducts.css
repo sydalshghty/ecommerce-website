@@ -1,0 +1,82 @@
+ .View-All-Products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    border-bottom: 1px solid var(--border-color);
+}
+ .View-All-Products button {
+    position: relative;
+    z-index: 1;
+    width: 234px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 60px;
+    color: var(--Text);
+    background-color: var(--background-Secondary2);
+    transition: color 0.5s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+}
+
+@media (max-width: 600px) {
+     .View-All-Products button {
+        width: 180px;
+        height: 45px;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+}
+
+ .View-All-Products button::before,
+ .View-All-Products button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: -1;
+    transition: width 0.5s ease;
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -ms-transition: width 0.5s ease;
+    -o-transition: width 0.5s ease;
+}
+
+ .View-All-Products button::before {
+    left: 50%;
+}
+
+ .View-All-Products button::after {
+    right: 50%;
+}
+
+ .View-All-Products button:hover {
+    color: var(--background-Secondary2);
+    border: 1px solid var(--background-Secondary2);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+ .View-All-Products button:hover::before,
+ .View-All-Products button:hover::after {
+    width: 50%;
+}

@@ -1,0 +1,261 @@
+.wishList-Departament{
+    width: 100%;
+    overflow: hidden;
+}
+.wishList-Departament .container{
+    width: 100%;
+    margin-top: 60px;
+}
+.wishList-Departament .container .heading-wishlist{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wishList-Departament .container .heading-wishlist h3{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--Button);
+}
+.wishList-Departament .container .heading-wishlist button{
+    position: relative;
+    width: 223px;
+    height: 56px;
+    border: 1px solid var(--text2);
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: var(--Button);
+    cursor: pointer;
+    z-index: 1;
+    transition: color 0.5s ease;
+}
+.wishList-Departament .container .heading-wishlist button::before,
+.wishList-Departament .container .heading-wishlist button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--background-Secondary2);
+    z-index: -1;
+    transition: width 0.5s ease;
+}
+.wishList-Departament .container .heading-wishlist button::before{
+    left: 50%;
+}
+.wishList-Departament .container .heading-wishlist button::after{
+    right: 50%;
+}
+.wishList-Departament .container .heading-wishlist button:hover::before,
+.wishList-Departament .container .heading-wishlist button:hover::after{
+    width: 50%;
+}
+.wishList-Departament .container .heading-wishlist button:hover{
+    border-color: var(--background-Secondary2);
+    color: #FFFFFF;
+}
+.wishList-Departament .container .WishList-Products1,
+.wishList-Departament .container .wishlist-Product2{
+    margin-top: 40px;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image{
+    width: 270px;
+    height: 250px;
+    background-color: var(--Secondary);
+    border-radius: 4px;
+    position: relative;
+    padding: 20px;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image .div-img,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .img-product{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image .img-product,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .img-product img{
+    width: 178px;
+    height: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image .col-star,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .col-star{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image .col-star p,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .col-star div p{
+    width: 55px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: var(--background-Secondary2);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--Text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image .col-star div,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .col-star .col-Eye{
+    width: 34px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image .col-star img,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .col-star .col-Eye img{
+    cursor: pointer;
+}
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .col-add-To-Cart{
+    background-color: var(--Button);
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image .col-addTocart,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .col-add-To-Cart{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image .col-addTocart img,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .col-add-To-Cart img{
+    margin-right: 10px;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .col-image .col-addTocart p,
+.wishList-Departament .container .wishlist-Product2 .col-product .col-image .col-add-To-Cart p{
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .content-Product,
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product{
+    margin-top: 15px;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .content-Product .title-product,
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product h3{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .content-Product .col-price,
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-price{
+    display: flex;
+    margin-top: 5px;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .content-Product .col-price .newPrice,
+.wishList-Departament .container .WishList-Products1 .col-product .content-Product .col-price .deletePrice,
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-price .new-price,
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-price .old-price{
+    font-size: 15px;
+    font-weight: 500;
+}
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-price .old-price{
+    text-decoration: line-through;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .content-Product .col-price .newPrice,
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-price .new-price{
+    color: var(--background-Secondary2);
+    margin-right: 10px;
+}
+.wishList-Departament .container .WishList-Products1 .col-product .content-Product .col-price .deletePrice,
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-price .old-price{
+    color: var(--text2);
+}
+@media (max-width: 992px){
+    .wishList-Departament .container .heading-wishlist button{
+        width: 180px;
+        height: 46px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px){
+    .wishList-Departament .container .WishList-Products1 .col-product,
+    .wishList-Departament .container .WishList-Products1 .col-product .col-image{
+        width: 100%;
+    }
+}
+@media (max-width: 520px){
+    .wishList-Departament .container .heading-wishlist h3{
+        font-size: 18px;
+        font-weight: 400;
+    }  
+    .wishList-Departament .container .heading-wishlist button{
+        width: 160px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+.wishList-Departament .container .wishlist-heading-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.wishList-Departament .container .wishlist-heading-2 button{
+    width: 150px;
+    height: 56px;
+    background-color: transparent;
+    border: 1px solid var(--text2);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.7s ease, color 0.7s ease;
+}
+.wishList-Departament .container .wishlist-heading-2 button:hover{
+    background-color: var(--background-Secondary2);
+    color: #FFFFFF;
+    border-color: transparent;
+}
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-star{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-star .all-stars{
+    margin-right: 10px;
+}
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-star .all-stars .icon{
+    margin-right: 3px;
+    color: var(--background-star);
+    width: 17px;
+    height: 17px;
+}
+.wishList-Departament .container .wishlist-Product2 .col-product .content-product .col-star p{
+    font-size: 16px;
+    color: var(--text2);
+    margin-top: -4px;
+}
+@media (max-width: 600px){
+    .wishList-Departament .container .wishlist-heading-2 button{
+        height: 45px;
+        font-size: 14px;
+    }
+    .wishList-Departament .container .wishlist-Product2 .col-product .col-image{
+        width: 100%;
+    }
+}

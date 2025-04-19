@@ -1,0 +1,283 @@
+.MyAccount-Departament{
+    width: 100%;
+}
+.MyAccount-Departament .container{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.MyAccount-Departament .container .heading-account{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.MyAccount-Departament .container .heading-account .col-one{
+    display: flex;
+    align-items: center;
+}
+.MyAccount-Departament .container .heading-account .col-one p,
+.MyAccount-Departament .container .heading-account .col-two p,
+.MyAccount-Departament .container .heading-account .col-two span{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+.MyAccount-Departament .container .heading-account .col-one p:nth-child(1){
+    color: var(--text2);
+}
+.MyAccount-Departament .container .heading-account .col-one span{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--text2);
+}
+.MyAccount-Departament .container .heading-account .col-one p:nth-child(2),
+.MyAccount-Departament .container .heading-account .col-two p{
+    color: var(--text-two);
+}
+.MyAccount-Departament .container .heading-account .col-two{
+    display: flex;
+}
+.MyAccount-Departament .container .heading-account .col-two p{
+    margin-right: 5px;
+}
+.MyAccount-Departament .container .heading-account .col-two span{
+    color: var(--background-Secondary2);
+}
+@media (max-width: 520px){
+    .MyAccount-Departament .container .heading-account .col-one p,
+    .MyAccount-Departament .container .heading-account .col-two p,
+    .MyAccount-Departament .container .heading-account .col-two span{
+        font-size: 15px;
+    }
+}
+.MyAccount-Departament .container .myAccount-Form{
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+.MyAccount-Departament .container .myAccount-Form .myAccount-Col{
+    margin-right: 80px;
+    min-width: 20%;
+}
+.MyAccount-Departament .container .myAccount-Form .myAccount-Col .col h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-two);
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+.MyAccount-Departament .container .myAccount-Form .myAccount-Col .col p{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    color: var(--text2);
+    cursor: pointer;
+    position: relative;
+    transition: color 0.5 ease;
+}
+.MyAccount-Departament .container .myAccount-Form .myAccount-Col .col p:hover{
+    color: var(--background-Secondary2);
+}
+@media (max-width: 1150px){
+    .MyAccount-Departament .container .myAccount-Form .myAccount-Col{
+        margin-right: 40px;
+    } 
+    .MyAccount-Departament .container .myAccount-Form .myAccount-Col .col h3{
+        font-size: 17px;
+    } 
+    .MyAccount-Departament .container .myAccount-Form .myAccount-Col .col p{
+        font-size: 15px;
+        margin-left: 30px;
+    }
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account{
+    width: 70%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account h2{
+   font-size: 23px;
+   font-weight: 500;
+   margin-bottom: 10px;
+   letter-spacing: 0.5px;
+   color: var(--background-Secondary2);
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form{
+   width: 100%;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Name,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Email-Address{
+   display: flex;
+   width: 100%;
+   margin-bottom: 15px;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Name div,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Email-Address div{
+   display: flex;
+   flex-direction: column;
+   width: calc(100% / 2);
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Name div:nth-child(1),
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Email-Address div:nth-child(1){
+    margin-right: 60px;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Name div label,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Email-Address div label,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-password label{
+   margin-bottom: 5px;
+   font-size: 15px;
+   font-weight: 500;
+   font-family: sans-serif;
+   letter-spacing: 0.5px;
+   color: var(--text-two);
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Name div input,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Email-Address div input,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-password input{
+   border: none;
+   outline: none;
+   height: 50px;
+   background-color: var(--Secondary);
+   padding: 15px;
+   border-radius: 4px;
+   font-size: 15px;
+   font-weight: 500;
+   letter-spacing: 0.5px;
+   color: var(--text2);
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Name div input::placeholder,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Email-Address div input::placeholder,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-password input::placeholder{
+    padding-left: 5px;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-password{
+   display: flex;
+   flex-direction: column;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-password input{
+   margin-bottom: 10px;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button{
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-top: 20px;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button{
+   margin-left: 20px;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2){
+    position: relative;
+    width: 210px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--background-Secondary2);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: var(--color-white);
+    z-index: 1;
+    transition: border 0.7s ease, color 0.7s ease;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2)::before,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--color-white);
+    z-index: -1;
+    transition: width 0.7s ease;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2)::before{
+    left: 50%;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2)::after{
+    right: 50%;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2):hover::before,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2):hover::after{
+    width: 50%;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2):hover{
+    color: var(--background-Secondary2);
+    border: 1px solid var(--background-Secondary2);
+    border-radius: 0px;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(1){
+    position: relative;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    transition: color 0.5s ease;
+    height: fit-content;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(1):hover{
+    color: var(--background-Secondary2);
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(1)::before,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    background-color: var(--background-Secondary2);
+    transition: width 0.5s ease;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(1)::before{
+    left: 50%;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(1)::after{
+    right: 50%;
+}
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(1):hover::before,
+.MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(1):hover::after{
+    width: 50%;
+}
+@media (max-width: 800px){
+    .MyAccount-Departament .container .myAccount-Form{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .MyAccount-Departament .container .myAccount-Form .Form-Account{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2){
+        width: 180px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px){
+    .MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Name,
+    .MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Email-Address{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Name div,
+    .MyAccount-Departament .container .myAccount-Form .Form-Account form .col-Email-Address div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .MyAccount-Departament .container .myAccount-Form .Form-Account form .col-button button:nth-child(2){
+        width: 150px;
+        height: 40px;
+    }
+}
+@media (max-width: 992px){
+    .MyAccount-Departament .container .heading-account{
+        margin-top: 60px;
+    }
+}

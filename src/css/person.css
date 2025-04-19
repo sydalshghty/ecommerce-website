@@ -1,0 +1,91 @@
+.Person-Departament{
+    width: 100%;
+    margin-top: 100px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.Person-Departament .person-Col{
+
+}
+.Person-Departament .person-Col .col-image{
+
+}
+.Person-Departament .person-Col .col-image img{
+    width: 320px;
+}
+.Person-Departament .person-Col .col-content{
+    margin-top: 30px;
+}
+.Person-Departament .person-Col .col-content h2{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    color: var(--Button);
+}
+.Person-Departament .person-Col .col-content p{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: var(--Button);
+    margin-bottom: 15px;
+}
+.Person-Departament .person-Col .col-content .col-Social{
+    display: flex;
+}
+.Person-Departament .person-Col .col-content .col-Social img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+@media (max-width: 1380px){
+    .Person-Departament .person-Col .col-image img{
+        width: 300px;
+    }
+}
+@media (max-width: 768px){
+    .Person-Departament .person-Col .col-image img{
+        width: 250px;
+    }
+    .Person-Departament .person-Col .col-content h2{
+        font-size: 20px;
+    }
+    .Person-Departament .person-Col .col-content p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .Person-Departament .person-Col .col-content .col-Social img{
+        width: 20px;
+    }
+}
+@media (max-width: 600px){
+    .Person-Departament .person-Col .col-image img{
+        width: 400px;
+        height: 320px;
+    }
+}
+@media (max-width: 520px){
+    .Person-Departament .person-Col .col-image img{
+        width: 100%;
+    }
+}
+.Person-Departament ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.Person-Departament ul li{
+    width: 12px;
+    height: 12px;
+    background-color: var(--text2);
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.Person-Departament ul li:nth-child(3){
+    background-color: var(--background-Secondary2);
+}
+.Person-Departament .person-Col:hover{
+    border: none;
+    outline: none;
+}
