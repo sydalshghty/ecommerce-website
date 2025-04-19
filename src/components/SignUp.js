@@ -3,7 +3,7 @@ import imgGoogle from "../images/Icon-Google.svg";
 import "../css/SignUp.css";
 import Footer from "./Footer";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 function SignUp() {
@@ -70,9 +70,9 @@ function SignUp() {
                                 setValidPassword(e.target.value)
                             }}
                             type="Password" placeholder={Password} />
-                        <button onClick={() => {
-                            handleNavigate();
-                        }}>Create Account</button>
+                        <Link to={"/Home"}>
+                        <button>Create Account</button>
+                        </Link>
                     </form>
                     <div className="google-Col">
                         <img src={imgGoogle} alt="img-Google" />
