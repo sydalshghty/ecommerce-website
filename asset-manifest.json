@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecommerce-website/static/css/main.835bd47b.css",
-    "main.js": "/ecommerce-website/static/js/main.2b7ccb20.js",
+    "main.js": "/ecommerce-website/static/js/main.d9dacc45.js",
     "static/media/Visa.svg": "/ecommerce-website/static/media/Visa.94717f5ae6a10f8bbfe87ecf1e3eb3b2.svg",
     "static/media/Nagad.svg": "/ecommerce-website/static/media/Nagad.74e14554adc6527acf3cfdb623bed488.svg",
     "static/media/Frame 600.png": "/ecommerce-website/static/media/Frame 600.ca1a9d65301bd3276854.png",
@@ -30,10 +30,10 @@
     "static/media/Drop-Down-Small.svg": "/ecommerce-website/static/media/Drop-Down-Small.4441c639f64f61f6ef3d3f01b754df06.svg",
     "static/media/Drop-Up-Small.svg": "/ecommerce-website/static/media/Drop-Up-Small.6dde798598c347fae03371b376d3827b.svg",
     "main.835bd47b.css.map": "/ecommerce-website/static/css/main.835bd47b.css.map",
-    "main.2b7ccb20.js.map": "/ecommerce-website/static/js/main.2b7ccb20.js.map"
+    "main.d9dacc45.js.map": "/ecommerce-website/static/js/main.d9dacc45.js.map"
   },
   "entrypoints": [
     "static/css/main.835bd47b.css",
-    "static/js/main.2b7ccb20.js"
+    "static/js/main.d9dacc45.js"
   ]
 }
