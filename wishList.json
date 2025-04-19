@@ -1,0 +1,78 @@
+{
+    "WishList1": [
+        {
+            "id": 1,
+            "img": "https://i.imgur.com/6j03r91.png",
+            "title": "Gucci duffle bag",
+            "newprice": 960,
+            "oldprice": 1160,
+            "Star": "-35%",
+            "quantity": 1
+        },
+        {
+            "id": 2,
+            "img": "https://i.imgur.com/tCkWpN2.png",
+            "title": "RGB liquid CPU Cooler",
+            "newprice": 1960,
+            "oldprice": 2100,
+            "Star": "-30%",
+            "quantity": 1
+        },
+        {
+            "id": 3,
+            "img": "https://i.imgur.com/eg70W2x.png",
+            "title": "GP11 Shooter USB Gamepad",
+            "newprice": 550,
+            "oldprice": 650,
+            "Star": "-40%",
+            "quantity": 1
+        },
+        {
+            "id": 4,
+            "img": "https://i.imgur.com/UlGmKrz.png",
+            "title": "Quilted Satin Jacket",
+            "newprice": 750,
+            "oldprice": 850,
+            "Star": "-45%",
+            "quantity": 1
+        }
+    ],
+    "WishList2": [
+        {
+            "id": 5,
+            "img": "https://i.imgur.com/kAzrUSa.png",
+            "title": "ASUS FHD Gaming Laptop",
+            "newprice": 960,
+            "oldprice": 1160,
+            "Star": "-35%",
+            "quantity": 1
+        },
+        {
+            "id": 6,
+            "img": "https://i.imgur.com/U0wlmY2.png",
+            "title": "IPS LCD Gaming Monitor",
+            "newprice": 1160,
+            "oldprice": 2100,
+            "Star": "-40%",
+            "quantity": 1
+        },
+        {
+            "id": 7,
+            "img": "https://i.imgur.com/5m3uK7P.png",
+            "title": "HAVIT HV-G92 Gamepad",
+            "newprice": 560,
+            "oldprice": 660,
+            "Star": "-25%",
+            "quantity": 1
+        },
+        {
+            "id": 8,
+            "img": "https://i.imgur.com/Vl8ScGN.png",
+            "title": "AK-900 Wired Keyboard",
+            "newprice": 200,
+            "oldprice": 250,
+            "Star": "-30%",
+            "quantity": 1
+        }
+    ]
+}

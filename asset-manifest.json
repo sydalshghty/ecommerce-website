@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/ecommerce-website/static/css/main.835bd47b.css",
+    "main.js": "/ecommerce-website/static/js/main.2b7ccb20.js",
+    "static/media/Visa.svg": "/ecommerce-website/static/media/Visa.94717f5ae6a10f8bbfe87ecf1e3eb3b2.svg",
+    "static/media/Nagad.svg": "/ecommerce-website/static/media/Nagad.74e14554adc6527acf3cfdb623bed488.svg",
+    "static/media/Frame 600.png": "/ecommerce-website/static/media/Frame 600.ca1a9d65301bd3276854.png",
+    "static/media/Side Image (1).png": "/ecommerce-website/static/media/Side Image (1).e8981fd0d28ba2d369b7.png",
+    "static/media/Side Image.png": "/ecommerce-website/static/media/Side Image.e8981fd0d28ba2d369b7.png",
+    "static/media/Frame 876.png": "/ecommerce-website/static/media/Frame 876.c6ab25d5d7f31e62b2e6.png",
+    "static/media/Frame 874.png": "/ecommerce-website/static/media/Frame 874.b3ad883ff19a79c9d843.png",
+    "static/media/Mastercard.svg": "/ecommerce-website/static/media/Mastercard.8b1c1c81a21df281d34465e7d608a394.svg",
+    "static/media/Frame 875.png": "/ecommerce-website/static/media/Frame 875.59da3e8cb6619adcefed.png",
+    "static/media/Frame 560 (2) (1).png": "/ecommerce-website/static/media/Frame 560 (2) (1).d8a0dc5fa192f901d921.png",
+    "static/media/Bkash.svg": "/ecommerce-website/static/media/Bkash.293dae156ac201e394eb21ca0d13d529.svg",
+    "static/media/Exclusive.svg": "/ecommerce-website/static/media/Exclusive.8ca29947db1c675723912c991d9dde71.svg",
+    "static/media/slick.svg": "/ecommerce-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ecommerce-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ecommerce-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ecommerce-website/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/icon-instagram.svg": "/ecommerce-website/static/media/icon-instagram.90c479f9a968e30c19a1bb50d2a28a6e.svg",
+    "static/media/Icon-Google.svg": "/ecommerce-website/static/media/Icon-Google.419dacf0f23c21e94c6655d88f025e54.svg",
+    "index.html": "/ecommerce-website/index.html",
+    "static/media/icons-phone.svg": "/ecommerce-website/static/media/icons-phone.9636a6a75475b4801f7ec73191010f8b.svg",
+    "static/media/Icon-Linkedin.svg": "/ecommerce-website/static/media/Icon-Linkedin.88e6f6497fb7bd1a9149e5c0a0c06805.svg",
+    "static/media/Group (1).svg": "/ecommerce-website/static/media/Group (1).6f0a03793f50e4f2efe6d13c74f9097a.svg",
+    "static/media/Vector (10).svg": "/ecommerce-website/static/media/Vector (10).8670c73aa5bc44f3d669fcee87642420.svg",
+    "static/media/icon-cancel.svg": "/ecommerce-website/static/media/icon-cancel.b83201f360da3574e3f1170e2bb7691a.svg",
+    "static/media/icons-mail.svg": "/ecommerce-website/static/media/icons-mail.2ab454d206e44daf95b08167ec5f3d49.svg",
+    "static/media/Drop-Down-Small.svg": "/ecommerce-website/static/media/Drop-Down-Small.4441c639f64f61f6ef3d3f01b754df06.svg",
+    "static/media/Drop-Up-Small.svg": "/ecommerce-website/static/media/Drop-Up-Small.6dde798598c347fae03371b376d3827b.svg",
+    "main.835bd47b.css.map": "/ecommerce-website/static/css/main.835bd47b.css.map",
+    "main.2b7ccb20.js.map": "/ecommerce-website/static/js/main.2b7ccb20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.835bd47b.css",
+    "static/js/main.2b7ccb20.js"
+  ]
+}
