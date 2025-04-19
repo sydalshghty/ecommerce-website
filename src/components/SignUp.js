@@ -71,7 +71,6 @@ function SignUp() {
                             }}
                             type="Password" placeholder={Password} />
                         <button onClick={() => {
-                            createAccount();
                             handleNavigate();
                         }}>Create Account</button>
                     </form>
